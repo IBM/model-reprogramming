@@ -40,9 +40,11 @@ The figure above illusrates the model reprogramming framework (top) and  some  e
 
 ## Adding your work to this table
 Please create an issue with the following information
-> Paper title:
+> Paper title: 
 > 
 > Author list:
+>
+> Paper link:
 > 
 > Publication venue (arxiv is fine) and year:
 > 
