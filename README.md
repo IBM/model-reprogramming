@@ -19,21 +19,22 @@ The figure above illusrates the model reprogramming framework (top) and  some  e
 # Existing works and use cases 
 
 
-
-| Reference                                    | Source domain        | Source model   | Target domain                 | Highlights                            |
+| Reference \& Link                                    | Source domain        | Source model   | Target domain                 | Highlights                            |
 |----------------------------------------------|----------------------|----------------|-------------------------------|---------------------------------------|
-| Elsayed et al., 2019                | General image        | ImageNet       | CIFAR-10/MNIST/counting       | first work; mediocre accuracy         |
-| Neekhara et al., 2019               | Text                 | LSTM/CNN       | Character/Word level tasks    | context-based vocabulary mapping      |
-| Tsai et al., 2020                     | General image        | ImageNet/API   | Bio-medical measurement/image | black-box reprogramming; new SOTA     |
-| Vinod et al., 2020                | Text                 | BERT/LSTM      | Biochemical sequence          | vocabulary embedding mapping          |
-| Kloberdanz et al., 2021              | General image        | ImageNet       | Caltech 101/256 (reduced)     | trainable input \&                     output layers                        |
-| Lee et al., 2020; Dinh et al., 2022 | Image/Spectrogram    | GAN            | Image/Spectrogram             | reprogram GAN to conditional GAN      |
-| Randazzo et al., 2021              | MNIST/lizard pattern | Neural CA      | MNIST/Lizard pattern          | stable out-of-training configurations |
-| Hambardzumyan et al., 2021                | Text                 | BERT \&         variants                      | GLUE/SuperGLUE                        | trainable tokens and data efficiency |
-| Yang et al., 2021                | Speech               | VGGish         | Univariate time series        | new/same SOTA on 19/30 datasets       |
-| Yen et al., 2021                         | Speech               | Acoustic model | Low-resource speech           | new SOTA; reprogramming+finetuning    |
-| Chen et al., 2021                  | General image        | ImageNet       | Financial transaction         | overlay image and transaction feature |
-| Neekhara et al., 2022                     | General image        | ViT/Imagenet   | Sequence                      | text sentences and DNA sequences      |
+|
+[Elsayed et al., 2019](https://arxiv.org/abs/1806.11146)           | General image        | ImageNet       | CIFAR-10/MNIST/counting       | first work; mediocre accuracy         |
+| [Neekhara et al., 2019](https://arxiv.org/abs/1809.01829)               | Text                 | LSTM/CNN       | Character/Word level tasks    | context-based vocabulary mapping      |
+| [Tsai et al., 2020](https://arxiv.org/abs/2007.08714)                     | General image        | ImageNet/API   | Bio-medical measurement/image | black-box reprogramming; new SOTA     |
+| [Vinod et al., 2020](https://arxiv.org/abs/2012.03460)                | Text                 | BERT/LSTM      | Biochemical sequence          | vocabulary embedding mapping          |
+| [Kloberdanz et al., 2021](https://link.springer.com/chapter/10.1007/978-3-030-86362-3_1)              | General image        | ImageNet       | Caltech 101/256 (reduced)     | trainable input \&                     output layers                        |
+| [Lee et al., 2020](https://link.springer.com/chapter/10.1007/978-3-030-67661-2_16); [Dinh et al., 2022](https://arxiv.org/abs/2201.02692) | Image/Spectrogram    | GAN            | Image/Spectrogram             | reprogram GAN to conditional GAN      |
+| [Randazzo et al., 2021](https://distill.pub/selforg/2021/adversarial/)              | MNIST/lizard pattern | Neural CA      | MNIST/Lizard pattern          | stable out-of-training configurations |
+| [Hambardzumyan et al., 2021](https://arxiv.org/abs/2101.00121)                | Text                 | BERT \&         variants                      | GLUE/SuperGLUE                        | trainable tokens and data efficiency |
+| [Yang et al., 2021](https://arxiv.org/abs/2106.09296)                | Speech               | VGGish         | Univariate time series        | new/same SOTA on 19/30 datasets       |
+| [Yen et al., 2021](https://arxiv.org/abs/2110.03894)                         | Speech               | Acoustic model | Low-resource speech           | new SOTA; reprogramming+finetuning    |
+| [Chen et al., 2021](https://dl.acm.org/doi/abs/10.1145/3459637.3482053)                  | General image        | ImageNet       | Financial transaction         | overlay image and transaction feature |
+| [Neekhara et al., 2022](https://arxiv.org/abs/2102.07325)                     | General image        | ViT/Imagenet   | Sequence                      | text sentences and DNA sequences      |
+
 
 
 ##### LSTM means long short-term memory, CNN means convolutional neural network, API means application programming interface, and SOTA means state of the art. BERT stands for bidirectional encoder representations from transformers. GLUE stands for the general language understanding evaluation benchmark. GAN stands for generative adversarial network. CA stands for cellular automata. ViT stands for vision transformer. 
