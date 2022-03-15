@@ -21,8 +21,7 @@ The figure above illusrates the model reprogramming framework (top) and  some  e
 
 | Reference \& Link                                    | Source domain        | Source model   | Target domain                 | Highlights                            |
 |----------------------------------------------|----------------------|----------------|-------------------------------|---------------------------------------|
-|
-[Elsayed et al., 2019](https://arxiv.org/abs/1806.11146)           | General image        | ImageNet       | CIFAR-10/MNIST/counting       | first work; mediocre accuracy         |
+| [Elsayed et al., 2019](https://arxiv.org/abs/1806.11146)           | General image        | ImageNet       | CIFAR-10/MNIST/counting       | first work; mediocre accuracy         |
 | [Neekhara et al., 2019](https://arxiv.org/abs/1809.01829)               | Text                 | LSTM/CNN       | Character/Word level tasks    | context-based vocabulary mapping      |
 | [Tsai et al., 2020](https://arxiv.org/abs/2007.08714)                     | General image        | ImageNet/API   | Bio-medical measurement/image | black-box reprogramming; new SOTA     |
 | [Vinod et al., 2020](https://arxiv.org/abs/2012.03460)                | Text                 | BERT/LSTM      | Biochemical sequence          | vocabulary embedding mapping          |
