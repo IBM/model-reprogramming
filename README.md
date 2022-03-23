@@ -1,6 +1,6 @@
 # Model Reprogramming Repository
 
-Survey paper: [Model Reprogramming: Resource-Efficient Cross-Domain Machine Learning](https://arxiv.org/abs/2202.10629)
+Survey paper: [Model Reprogramming: Resource-Efficient Cross-Domain Machine Learning](https://arxiv.org/abs/2202.10629) by [Pin-Yu Chen](https://sites.google.com/site/pinyuchenpage/home)
 
 # What is model reprogramming? 
 Model reprogramming enables resource-efficient cross-domain machine learning by repurposing and reusing a well-developed pre-trained model from a source domain to solve tasks in a target domain **without** model finetuning, where the source and target domains can be vastly different. In many applications, model reprogramming outperforms transfer learning and training from scratch.
