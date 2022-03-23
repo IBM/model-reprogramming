@@ -14,7 +14,7 @@ The general rationale behind model reprogramming lies in repurposing and reusing
 
 ![](https://i.imgur.com/KURlKKq.png)
 
-The figure above illusrates the model reprogramming framework (top) and  some  examples  of  cross-domain  machine  learning  via  modelreprogramming  (bottom).    Model  reprogramming  enables  cross-domain machine learning by adding two modules, an input transfor-mation layer (blue box) and an output mapping layer (green box), to a pre-trained model selected from a source domain.   When reprogrammed  to  solve  target-domain  tasks,  the  pre-trained  sourcemodel is frozen and its model parameters are unchanged. Some ex-amples of cross-domain machine learning including reprogramming speech models for time-series [Yanget al., 2021], language models for molecules [Vinodet al., 2020], and general imaging models for bio-medical measurements [Tsaiet al., 2020].
+The figure above illusrates the model reprogramming framework (top) and  some  examples  of  cross-domain  machine  learning  via  modelreprogramming  (bottom).    Model  reprogramming  enables  cross-domain machine learning by adding two modules, an input transfor-mation layer (blue box) and an output mapping layer (green box), to a pre-trained model selected from a source domain.   When reprogrammed  to  solve  target-domain  tasks,  the  pre-trained  sourcemodel is frozen and its model parameters are unchanged. Some ex-amples of cross-domain machine learning including reprogramming speech models for time-series [Yang et al., 2021], language models for molecules [Vinod et al., 2020], and general imaging models for bio-medical measurements [Tsai et al., 2020].
 
 # Existing works and use cases 
 
