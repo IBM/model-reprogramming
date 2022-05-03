@@ -27,8 +27,8 @@ The figure above illusrates the model reprogramming framework (top) and  some  e
 | [Lee et al., 2020](https://link.springer.com/chapter/10.1007/978-3-030-67661-2_16); [Dinh et al., 2022](https://arxiv.org/abs/2201.02692) | Image/Spectrogram    | GAN            | Image/Spectrogram             | reprogram GAN to conditional GAN      |
 | [Randazzo et al., 2021](https://distill.pub/selforg/2021/adversarial/)              | MNIST/lizard pattern | Neural CA      | MNIST/Lizard pattern          | stable out-of-training configurations |
 | [Hambardzumyan et al., 2021](https://arxiv.org/abs/2101.00121)                | Text                 | BERT \&         variants                      | GLUE/SuperGLUE                        | trainable tokens and data efficiency |
-| [Yang et al., 2021](https://arxiv.org/abs/2106.09296)                | Speech               | VGGish         | Univariate time series        | new/same SOTA on 19/30 datasets       |
-| [Yen et al., 2021](https://arxiv.org/abs/2110.03894)                         | Speech               | Acoustic model | Low-resource speech           | new SOTA; reprogramming+finetuning    |
+| [Yang et al., 2021](https://arxiv.org/abs/2106.09296)                | Speech               | Attention-RNN        | Univariate time series        | new/same SOTA on 19/30 datasets       |
+| [Yen et al., 2021](https://arxiv.org/abs/2110.03894)                         | Speech               | Attention-RNN | Low-resource speech           | new SOTA; reprogramming+finetuning    |
 | [Chen et al., 2021](https://dl.acm.org/doi/abs/10.1145/3459637.3482053)                  | General image        | ImageNet       | Financial transaction         | overlay image and transaction feature |
 | [Neekhara et al., 2022](https://arxiv.org/abs/2102.07325)                     | General image        | ViT/Imagenet   | Sequence                      | text sentences and DNA sequences      |
 
