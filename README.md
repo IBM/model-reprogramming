@@ -12,7 +12,7 @@ The general rationale behind model reprogramming lies in repurposing and reusing
 
 ![](https://i.imgur.com/KURlKKq.png)
 
-The figure above illusrates the model reprogramming framework (top) and  some  examples  of  cross-domain  machine  learning  via  modelreprogramming  (bottom).    Model  reprogramming enables cross-domain machine learning by adding two modules, an input transformation layer (blue box) and an output mapping layer (green box), to a pre-trained model selected from a source domain.   When reprogrammed  to  solve  target-domain  tasks,  the  pre-trained  source model is frozen and its model parameters are unchanged. Some examples of cross-domain machine learning including reprogramming speech models for time-series [[Yang et al., 2021]](https://arxiv.org/abs/2106.09296), language models for molecules [[Vinod et al., 2020]](https://arxiv.org/abs/2012.03460), and general imaging models for bio-medical measurements [[Tsai et al., 2020]](https://arxiv.org/abs/2007.08714).
+The figure above illusrates the model reprogramming framework (top) and  some  examples  of  cross-domain  machine  learning  via  modelreprogramming  (bottom).    Model  reprogramming enables cross-domain machine learning by adding two modules, an input transformation layer (blue box) and an output mapping layer (green box), to a pre-trained model selected from a source domain.   When reprogrammed  to  solve  target-domain  tasks,  the  pre-trained  source model is frozen and its model parameters are unchanged. Some examples of cross-domain machine learning including reprogramming speech models for time-series [[Yang et al., 2021]](https://arxiv.org/abs/2106.09296), language models for molecules [[Vinod et al., 2023]](https://arxiv.org/abs/2301.02120), and general imaging models for bio-medical measurements [[Tsai et al., 2020]](https://arxiv.org/abs/2007.08714).
 
 # Existing works and use cases 
 
@@ -22,15 +22,18 @@ The figure above illusrates the model reprogramming framework (top) and  some  e
 | [Elsayed et al., 2019](https://arxiv.org/abs/1806.11146)           | General image        | ImageNet       | CIFAR-10/MNIST/counting       | first work; mediocre accuracy         |
 | [Neekhara et al., 2019](https://arxiv.org/abs/1809.01829)               | Text                 | LSTM/CNN       | Character/Word level tasks    | context-based vocabulary mapping      |
 | [Tsai et al., 2020](https://arxiv.org/abs/2007.08714)                     | General image        | ImageNet/API   | Bio-medical measurement/image | black-box reprogramming; new SOTA     |
-| [Vinod et al., 2020](https://arxiv.org/abs/2012.03460)                | Text                 | BERT/LSTM      | Biochemical sequence          | vocabulary embedding mapping          |
+| [Vinod et al., 2023](https://arxiv.org/abs/2301.02120)                | Text                 | BERT/LSTM      | Biochemical sequence          | vocabulary embedding mapping          |
 | [Kloberdanz et al., 2021](https://link.springer.com/chapter/10.1007/978-3-030-86362-3_1)              | General image        | ImageNet       | Caltech 101/256 (reduced)     | trainable input \&                     output layers                        |
 | [Lee et al., 2020](https://link.springer.com/chapter/10.1007/978-3-030-67661-2_16); [Dinh et al., 2022](https://arxiv.org/abs/2201.02692) | Image/Spectrogram    | GAN            | Image/Spectrogram             | reprogram GAN to conditional GAN      |
 | [Randazzo et al., 2021](https://distill.pub/selforg/2021/adversarial/)              | MNIST/lizard pattern | Neural CA      | MNIST/Lizard pattern          | stable out-of-training configurations |
 | [Hambardzumyan et al., 2021](https://arxiv.org/abs/2101.00121)                | Text                 | BERT \&         variants                      | GLUE/SuperGLUE                        | trainable tokens and data efficiency |
 | [Yang et al., 2021](https://arxiv.org/abs/2106.09296)                | Speech               | Attention-RNN        | Univariate time series        | new/same SOTA on 19/30 datasets       |
-| [Yen et al., 2021](https://arxiv.org/abs/2110.03894)                         | Speech               | Attention-RNN | Low-resource speech           | new SOTA; reprogramming+finetuning    |
+| [Yen et al., 2023](https://arxiv.org/abs/2110.03894)                         | Speech               | Attention-RNN | Low-resource speech           | new SOTA; reprogramming+finetuning    |
 | [Chen et al., 2021](https://dl.acm.org/doi/abs/10.1145/3459637.3482053)                  | General image        | ImageNet       | Financial transaction         | overlay image and transaction feature |
 | [Neekhara et al., 2022](https://arxiv.org/abs/2102.07325)                     | General image        | ViT/Imagenet   | Sequence                      | text sentences and DNA sequences      |
+| [Jin et al., 2023](https://arxiv.org/abs/2304.14593) | Graph |  GNN  | various graph-based tasks |  3D object recognition & action recognition
+| [Melnyk et al., 2023](https://arxiv.org/abs/2210.07144) | Text | BERT | Protein Sequence |   antibody sequence infilling with diversity
+| [Dey et al., 2024](https://arxiv.org/abs/2403.06569)  | General human motion  | Temporal CNN | Prosthesis motion for individuals with limb loss |  Adapt motion models, originally designed for able-bodied individuals to forecast joint motion for prosthesis for individuals with limb loss.
 
 
 
